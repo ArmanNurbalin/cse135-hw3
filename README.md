@@ -1,3 +1,16 @@
+## Website
+https://armannur.site
+
+## Team Members
+- Arman Nurbalin
+- Aahil Rupsi
+
+## Server details
+- IP: 164.92.85.129
+- ssh key not used
+- Username: grader (for both site and server)
+- Password: grader (for both site and server)
+
 ## Dashboard
 For the Reporting Dashboard, the first chart is a bar chart of the top 5 browsers to understand which browsers the users are using. A bar chart was used as it is the clearest way to compare different categories side-by-side. By choosing only 5 browsers, it's easier to understand what the majority of users are visiting on, so that future improvements can be made to performance on those browsers. Second, a line chart of page load times to spot slowdowns over time. A line chart was chosen as it shows trends which are easy to spot such as spikes in load time. This makes it easier to understand whether certain changes to the site resulted in worse performance and slower load times to the site. Third, a small grid of the last 10 user events. A table grid was chosen as it gives exact details on what the user id was and what event was performed at a given timestamp.  The last 10 events were chosen as to better see how changes affect certain events the list can be expanded if needed. Keeping it shorter also makes it more readable and easy to understand without having too much information to go through.
 
