@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailed Report: JavaScript Errors</title>
+    <link rel="stylesheet" href="report.css">
+    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+    <script src="https://cdn.zinggrid.com/zinggrid.min.js" defer></script>
+</head>
+<body>
+
+    <div class="report-container">
+        <h1>Detailed Report: JavaScript Errors</h1>
+        <p><strong>Guiding Question:</strong> Which pages on my site are causing the most JavaScript errors, and what are those errors?</p>
+        <hr>
+
+        <h2>Errors per Page</h2>
+        <div id="errorChart" style="height:400px; width:100%;"></div>
+    </div>
+
+    <div class="report-container">
+        <h2>Error Log Details</h2>
+        <zing-grid id="errorGrid" caption="All Error Events"></zing-grid>
+    </div>
+
+    <div class="report-container">
+        <h2>Discussion and Analysis</h2>
+        <p id="analysisText">Loading data...</p>
+    </div>
+
+    <script src="report.js" defer></script>
+
+</body>
+</html>

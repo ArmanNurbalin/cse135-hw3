@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporting Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+    <script src="https://cdn.zinggrid.com/zinggrid.min.js" defer></script>
+</head>
+<body>
+    <h1>Reporting Dashboard</h1>
+
+    <div class="dashboard-container">
+        <div class="metric-card">
+            <h2>Top 5 Browsers</h2>
+            <div id="browserChart"></div>
+        </div>
+        <div class="metric-card">
+            <h2>Page Load Performance</h2>
+            <div id="performanceChart"></div>
+        </div>
+    </div>
+    <div class="dashboard-container">
+        <div class="metric-card">
+            <h2>Recent User Activity</h2>
+            <zing-grid id="activityGrid" caption="Last 10 Events" layout="fit"></zing-grid>
+        </div>
+    </div>
+
+    <a href="report.html" class="report-link">View Detailed Error Report</a>
+
+    <script src="dashboard.js" defer></script>
+</body>
+</html>
