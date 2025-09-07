@@ -1,6 +1,6 @@
 ## Website
-https://reporting.armannur.site
-https://reporting.armannur.site/report.html
+- https://reporting.armannur.site
+- https://reporting.armannur.site/report.html
 
 ## Team Members
 - Arman Nurbalin
