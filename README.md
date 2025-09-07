@@ -1,6 +1,7 @@
 ## Website
-- https://reporting.armannur.site
-- https://reporting.armannur.site/report.html
+- https://armannur.site (Overall Website)
+- https://reporting.armannur.site (For Checkpoint 3 part 5)
+- https://reporting.armannur.site/report.html (For Checkpoint 3 part 6)
 
 ## Team Members
 - Arman Nurbalin
